@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f8f9fa;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+.banner-image {
+    width: 100%; /* Adjust to fit full width of container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.site-logo {
+    max-width: 200px;
+    position: absolute;
+    top: 10px; /* Adjust position as needed */
+    left: 10px; /* Adjust position as needed */
+}
+
+nav {
+    background: #343a40;
+    color: #ffffff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+article {
+    padding: 20px;
+}
+.main-page-image {
+    width: 100%; /* Ensure the image covers the full width */
+    height: auto; /* Maintain the aspect ratio */
+}
+footer {
+    background: #343a40;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer img {
+    max-width: 50px;
+    margin: 0 5px;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+form fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+form button {
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
